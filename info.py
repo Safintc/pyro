@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21116415'))
 API_HASH = environ.get('API_HASH', '8e23c9d97d71d525741e33f6b3584f45')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8336456330:AAH_OLodxSc4aTxCdC0cD_lzYy3RDq0gcPs')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8257948836:AAEyS8XeEALcLzdpLRnAUvO6b4pdUIxF4SQ')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -73,7 +73,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002955340296')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
