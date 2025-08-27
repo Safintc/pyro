@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
-    "repository": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
+    "website": "https://github.com/Safintc/pyro",
+    "repository": "https://github.com/Safintc/pyro",
     "env": {
         "BOT_TOKEN": {
             "description": "8257948836:AAEyS8XeEALcLzdpLRnAUvO6b4pdUIxF4SQ",
