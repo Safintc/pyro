@@ -1,5 +1,5 @@
 {
-    "name": "PiroAutoFilterBot",
+    "name": "SfnMoviesBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -19,23 +19,23 @@
     "repository": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "8257948836:AAEyS8XeEALcLzdpLRnAUvO6b4pdUIxF4SQ",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "21116415",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "8e23c9d97d71d525741e33f6b3584f45",
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": " -1002919090759",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "description": "safinct",
             "required": true
         },
         "PICS": {
@@ -43,23 +43,23 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "-1002577824824",
             "required": true
         },
         "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "description": "-1003073675420",
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "description": "-1003073675420",
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "mongodb+srv://safin:x0EwcqRWeyafnQIo@cluster0.1qpfh4t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "description": "safin",
             "required": false
         },
         "COLLECTION_NAME": {
