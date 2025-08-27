@@ -3,12 +3,13 @@ services:
    worker:
     build: .
     environment:
-      BOT_TOKEN: $BOT_TOKEN
-      API_ID: $API_ID
-      API_HASH: $API_HASH
-      CHANNELS: $CHANNELS
-      ADMINS: $ADMINS
-      LOG_CHANNEL: $LOG_CHANNEL
-      DATABASE_NAME: $DATABASE_NAME
-      DATABASE_URI: $DATABASE_URI
-      HEROKU_API_KEY: $HEROKU_API_KEY
+      BOT_TOKEN: 8257948836:AAEyS8XeEALcLzdpLRnAUvO6b4pdUIxF4SQ
+      API_ID: 21116415
+      API_HASH: 8e23c9d97d71d525741e33f6b3584f45
+      CHANNELS: -1002919090759
+      ADMINS: 1346360451
+      LOG_CHANNEL: -1002577824824
+      DATABASE_NAME: safin
+      DATABASE_URI: mongodb+srv://safin:x0EwcqRWeyafnQIo@cluster0.1qpfh4t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+     
+
